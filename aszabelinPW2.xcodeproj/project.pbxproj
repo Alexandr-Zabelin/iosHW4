@@ -13,6 +13,15 @@
 		CA34AAB22BA625B100DF7188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA34AAB02BA625B100DF7188 /* LaunchScreen.storyboard */; };
 		CA34AABA2BA6278200DF7188 /* WishMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34AAB92BA6278200DF7188 /* WishMakerViewController.swift */; };
 		CA34AABD2BA630FD00DF7188 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34AABC2BA630FD00DF7188 /* CustomSlider.swift */; };
+		CA9E422E2BA662F600101C69 /* WishStoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E422D2BA662F600101C69 /* WishStoringViewController.swift */; };
+		CA9E42302BA66C7C00101C69 /* WrittenWishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E422F2BA66C7C00101C69 /* WrittenWishCell.swift */; };
+		CA9E42332BA66F5400101C69 /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E42322BA66F5400101C69 /* UIViewPin.swift */; };
+		CA9E42352BA67E8000101C69 /* AddWishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E42342BA67E8000101C69 /* AddWishCell.swift */; };
+		CAAF5A4A2BA6DB3B0066E2C8 /* WishCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF5A492BA6DB3A0066E2C8 /* WishCalendarViewController.swift */; };
+		CAAF5A4C2BA6E0CA0066E2C8 /* WishEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF5A4B2BA6E0CA0066E2C8 /* WishEventCell.swift */; };
+		CAAF5A4F2BA6E1BA0066E2C8 /* WishEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF5A4E2BA6E1BA0066E2C8 /* WishEventModel.swift */; };
+		CAAF5A512BA6E7040066E2C8 /* WishEventCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF5A502BA6E7040066E2C8 /* WishEventCreationView.swift */; };
+		CAAF5A542BA6EDBB0066E2C8 /* CalendarEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF5A532BA6EDBB0066E2C8 /* CalendarEventManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		CA34AAB32BA625B100DF7188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA34AAB92BA6278200DF7188 /* WishMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishMakerViewController.swift; sourceTree = "<group>"; };
 		CA34AABC2BA630FD00DF7188 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		CA9E422D2BA662F600101C69 /* WishStoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishStoringViewController.swift; sourceTree = "<group>"; };
+		CA9E422F2BA66C7C00101C69 /* WrittenWishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrittenWishCell.swift; sourceTree = "<group>"; };
+		CA9E42322BA66F5400101C69 /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
+		CA9E42342BA67E8000101C69 /* AddWishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWishCell.swift; sourceTree = "<group>"; };
+		CAAF5A492BA6DB3A0066E2C8 /* WishCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCalendarViewController.swift; sourceTree = "<group>"; };
+		CAAF5A4B2BA6E0CA0066E2C8 /* WishEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEventCell.swift; sourceTree = "<group>"; };
+		CAAF5A4E2BA6E1BA0066E2C8 /* WishEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEventModel.swift; sourceTree = "<group>"; };
+		CAAF5A502BA6E7040066E2C8 /* WishEventCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishEventCreationView.swift; sourceTree = "<group>"; };
+		CAAF5A532BA6EDBB0066E2C8 /* CalendarEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,16 @@
 		CA34AAA42BA625AF00DF7188 /* aszabelinPW2 */ = {
 			isa = PBXGroup;
 			children = (
+				CAAF5A522BA6EDAB0066E2C8 /* Managers */,
+				CAAF5A4D2BA6E1AC0066E2C8 /* Models */,
+				CAAF5A482BA6DB0B0066E2C8 /* Controllers */,
+				CA9E42312BA66F3900101C69 /* Utils */,
 				CA34AABB2BA630DF00DF7188 /* Views */,
 				CA34AAA52BA625AF00DF7188 /* AppDelegate.swift */,
 				CA34AAA72BA625AF00DF7188 /* SceneDelegate.swift */,
 				CA34AAAE2BA625B100DF7188 /* Assets.xcassets */,
 				CA34AAB02BA625B100DF7188 /* LaunchScreen.storyboard */,
 				CA34AAB32BA625B100DF7188 /* Info.plist */,
-				CA34AAB92BA6278200DF7188 /* WishMakerViewController.swift */,
 			);
 			path = aszabelinPW2;
 			sourceTree = "<group>";
@@ -71,8 +92,46 @@
 			isa = PBXGroup;
 			children = (
 				CA34AABC2BA630FD00DF7188 /* CustomSlider.swift */,
+				CA9E422F2BA66C7C00101C69 /* WrittenWishCell.swift */,
+				CA9E42342BA67E8000101C69 /* AddWishCell.swift */,
+				CAAF5A4B2BA6E0CA0066E2C8 /* WishEventCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CA9E42312BA66F3900101C69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CA9E42322BA66F5400101C69 /* UIViewPin.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAAF5A482BA6DB0B0066E2C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA9E422D2BA662F600101C69 /* WishStoringViewController.swift */,
+				CA34AAB92BA6278200DF7188 /* WishMakerViewController.swift */,
+				CAAF5A492BA6DB3A0066E2C8 /* WishCalendarViewController.swift */,
+				CAAF5A502BA6E7040066E2C8 /* WishEventCreationView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAAF5A4D2BA6E1AC0066E2C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAAF5A4E2BA6E1BA0066E2C8 /* WishEventModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAAF5A522BA6EDAB0066E2C8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CAAF5A532BA6EDBB0066E2C8 /* CalendarEventManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +204,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAF5A4A2BA6DB3B0066E2C8 /* WishCalendarViewController.swift in Sources */,
+				CA9E42352BA67E8000101C69 /* AddWishCell.swift in Sources */,
 				CA34AAA62BA625AF00DF7188 /* AppDelegate.swift in Sources */,
+				CAAF5A512BA6E7040066E2C8 /* WishEventCreationView.swift in Sources */,
 				CA34AABA2BA6278200DF7188 /* WishMakerViewController.swift in Sources */,
+				CAAF5A542BA6EDBB0066E2C8 /* CalendarEventManager.swift in Sources */,
+				CAAF5A4F2BA6E1BA0066E2C8 /* WishEventModel.swift in Sources */,
 				CA34AAA82BA625AF00DF7188 /* SceneDelegate.swift in Sources */,
+				CAAF5A4C2BA6E0CA0066E2C8 /* WishEventCell.swift in Sources */,
 				CA34AABD2BA630FD00DF7188 /* CustomSlider.swift in Sources */,
+				CA9E42332BA66F5400101C69 /* UIViewPin.swift in Sources */,
+				CA9E42302BA66C7C00101C69 /* WrittenWishCell.swift in Sources */,
+				CA9E422E2BA662F600101C69 /* WishStoringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = aszabelinPW2/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar access is crucial to spy on you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -316,6 +385,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = aszabelinPW2/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar access is crucial to spy on you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
